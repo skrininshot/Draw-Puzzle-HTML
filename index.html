@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=720 height=1600></canvas>
+      <canvas id="unity-canvas" width=288 height=640></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -18,8 +18,6 @@
       </div>
       <div id="unity-warning"> </div>
       <div id="unity-footer">
-        <div id="unity-webgl-logo"></div>
-        <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">Draw Line Puzzle Test Task</div>
       </div>
     </div>
@@ -58,9 +56,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/Draw Puzzle (WebGL).loader.js";
       var config = {
-        dataUrl: buildUrl + "/Draw Puzzle (WebGL).data.br",
-        frameworkUrl: buildUrl + "/Draw Puzzle (WebGL).framework.js.br",
-        codeUrl: buildUrl + "/Draw Puzzle (WebGL).wasm.br",
+        dataUrl: buildUrl + "/Draw Puzzle (WebGL).data",
+        frameworkUrl: buildUrl + "/Draw Puzzle (WebGL).framework.js",
+        codeUrl: buildUrl + "/Draw Puzzle (WebGL).wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Draw Line Puzzle Test Task",
