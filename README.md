@@ -2,7 +2,7 @@
 ![Screenshot](screenshot.png)
 HTML-билд проекта **Draw-Puzzle**. [Код проекта](https://github.com/skrininshot/Unity-Draw-Puzzle/)
 
-[Играть](https://skrininshot.github.io/Draw-Puzzle-HTML/)
+# [Играть](https://skrininshot.github.io/Draw-Puzzle-HTML/)
 
 ## Геймплей
 Игроку предстоит решать головоломки с использованием основной механики - рисование траекторий дивжений персонажей. После того как линии нарисованы, начинается движение персонажей, им следует избегать столкновений с препятствиями, ловушками и друг-другом.
